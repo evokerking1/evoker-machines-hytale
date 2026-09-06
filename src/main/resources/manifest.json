@@ -1,0 +1,25 @@
+{
+    "Group": "dev.evokerking",
+    "Name": "machines",
+    "Version": "0.0.1",
+    "Description": "Adds lots of machines to hytale",
+    "Authors": [
+        {
+            "Name": "evokerking"
+        }
+    ],
+    "Website": "https://evokerking.dev",
+    "ServerVersion": ">=0.7.0-pre.1 <0.8.0",
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "dev.evokerking.machines.Main",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
