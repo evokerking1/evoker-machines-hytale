@@ -31,7 +31,7 @@ public class Main extends JavaPlugin {
 
     @Override
     protected void start() {
-        LOGGER.at(Level.INFO).log("Starting Evoker Machines!");
+        LOGGER.at(Level.INFO).log("[Evoker Machines - Start] Starting Evoker Machines!");
     }
 
     @Override
@@ -60,7 +60,7 @@ public class Main extends JavaPlugin {
 
     @Override
     protected void shutdown() {
-        LOGGER.at(Level.INFO).log("Shutting down Evoker Machines!");
+        LOGGER.at(Level.INFO).log("[Evoker Machiness - Shutdown] Shutting down Evoker Machines!");
         instance = null;
     }
 
